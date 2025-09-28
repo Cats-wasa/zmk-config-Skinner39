@@ -18,10 +18,10 @@
 
         number_layer {
             bindings = <
-  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans                        &trans        &trans        &trans        &trans        &trans
-  &trans          &trans          &trans        &trans           &trans                        &trans        &trans        &trans        &trans        &trans
-  &trans          &trans          &trans        &trans           &trans        &trans  &trans  &trans                                                  &trans
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                        &kp F1         &kp F2          &kp F3          &kp F4           &kp F5
+  &kp NUMBER_6  &kp NUMBER_7  &kp PAGE_UP    &kp NUMBER_8  &lt 5 SPACE                         &kp F6         &kp F7          &kp UP_ARROW    &kp F8           &kp RIGHT_SHIFT
+  &kp NUMBER_9  &kp NUMBER_0  &kp PAGE_DOWN  &kp SEMI      &lt 2 SPACE                         &kp RC(SPACE)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RS(F12)
+  &kp EQUAL     &kp ESC       &kp LC(X)      &trans        &kp TAB       &kp SLASH  &kp RC(C)  &kp RC(V)                                                       &kp F12
             >;
         };
 
